@@ -1,0 +1,15 @@
+print ("------Verificadoro de números positivos ou negativos do Luan------")
+
+n1 = int (input("Digite um número:"))
+
+if n1 % 2 == 0 and n1 >= 1:
+    print ("Esse número é positivo e par")
+
+elif n1 % 3 == 0:
+    print ("Esse número é positivo e múltiplo de tres")
+
+elif n1 % 2 == 1 or n1 < 0:
+    print ("Esse número é negativo e ímpar")
+
+else:
+    print ("Esse número não é nenhum deles")
